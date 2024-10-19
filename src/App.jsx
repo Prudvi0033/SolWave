@@ -1,11 +1,9 @@
 import React from 'react'; 
-import * as web3 from "@solana/web3.js";
 import { ConnectionProvider, WalletProvider } from "@solana/wallet-adapter-react";
 import { WalletModalProvider, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { ToastContainer } from 'react-toastify';
 import '@solana/wallet-adapter-react-ui/styles.css';
 import 'react-toastify/dist/ReactToastify.css'; 
-import Header from './components/Airdrop';
 import { Outlet, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 
