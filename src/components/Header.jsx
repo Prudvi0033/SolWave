@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className=' relative p-8 m-4 font-serif text-4xl font-bold text-[#013A4D] flex items-center list-none'>
         SolWave.
-        <div className='flex font-sans items-center space-x-12 text-xl transition duration-300 font-normal tracking-wide text-center ml-[28.6rem]'>
+        <div className='flex font-sans items-center space-x-12 text-xl transition duration-300 font-normal tracking-wide text-center ml-[23.9rem]'>
   <NavLink to="/account" className={({ isActive }) =>
     `relative ${isActive ? 'scale-110 font-bold' : ''} 
     text-[#013A4D] hover:text-[#013A4D] cursor-pointer transition-all ease-in-out 
